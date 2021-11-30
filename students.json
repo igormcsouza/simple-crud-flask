@@ -1,0 +1,29 @@
+{
+    "students": [
+        {
+            "name": "Maria",
+            "age": "16",
+            "school": "JJ School"
+        },
+        {
+            "name": "João",
+            "age": "26",
+            "school": "JJ School"
+        },
+        {
+            "name": "Danilo",
+            "age": "17",
+            "school": "JJ School"
+        },
+        {
+            "name": "Kaio",
+            "age": "55",
+            "school": "JJ School"
+        },
+        {
+            "name": "Roberval",
+            "age": "10",
+            "school": "JJ School"
+        }
+    ]
+}
