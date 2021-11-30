@@ -1,8 +1,9 @@
 from flask import Flask
 
-from students.controllers import init_controllers
+import students
 
 
 app = Flask(__name__)
 
-init_controllers(app)
+# Initialize the apps
+students.init_app(app)

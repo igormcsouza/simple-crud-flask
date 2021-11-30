@@ -6,7 +6,7 @@
             "school": "JJ School"
         },
         {
-            "name": "João",
+            "name": "Jo\u00e3o",
             "age": "26",
             "school": "JJ School"
         },
@@ -24,6 +24,21 @@
             "name": "Roberval",
             "age": "10",
             "school": "JJ School"
+        },
+        {
+            "age": "19",
+            "name": "Philips",
+            "school": "MM School"
+        },
+        {
+            "age": "29",
+            "name": "Oliver",
+            "school": "MM School"
+        },
+        {
+            "age": "24",
+            "name": "Janifer",
+            "school": "OO School"
         }
     ]
 }

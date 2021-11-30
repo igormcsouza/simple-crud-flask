@@ -1,11 +1,15 @@
-from flask import Flask, jsonify
+from flask import jsonify, request
 
-from .models import StudentsRepository
+from students.models import StudentsRepository
 
 
-def init_controllers(app: Flask):
-    @app.route("/students", methods=["GET", "POST"])
-    def index():
-        sr = StudentsRepository("students.json")
+repository = StudentsRepository(path="students.json")
 
-        return jsonify({"students": sr.get_all()})
+
+def index():
+    if request.method == 'GET':
+        return jsonify({"students": repository.get_all()})
+
+    if request.method == 'POST':
+        repository.store(request.json)  # type: ignore
+        return jsonify(), 201
