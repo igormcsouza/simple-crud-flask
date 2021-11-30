@@ -1,44 +1,10 @@
 {
-    "students": [
-        {
-            "name": "Maria",
-            "age": "16",
-            "school": "JJ School"
-        },
-        {
-            "name": "Jo\u00e3o",
+    "students": []
+}      {
             "age": "26",
-            "school": "JJ School"
-        },
-        {
-            "name": "Danilo",
-            "age": "17",
-            "school": "JJ School"
-        },
-        {
-            "name": "Kaio",
-            "age": "55",
-            "school": "JJ School"
-        },
-        {
-            "name": "Roberval",
-            "age": "10",
-            "school": "JJ School"
-        },
-        {
-            "age": "19",
-            "name": "Philips",
-            "school": "MM School"
-        },
-        {
-            "age": "29",
-            "name": "Oliver",
-            "school": "MM School"
-        },
-        {
-            "age": "24",
-            "name": "Janifer",
-            "school": "OO School"
+            "name": "Hugo",
+            "school": "12 School",
+            "id": "47075329-947f-4dcb-bcf2-c2a2a9e3d250"
         }
     ]
 }
